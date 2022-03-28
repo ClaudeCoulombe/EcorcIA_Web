@@ -39,8 +39,8 @@ intelligents par une équipe d'étudiants et de chercheurs du <a href="https://w
 
 ## Licence
 
-Copyright (C) 2020 The TensorFlow Open Source Project<br/>
-Copyright (C) 2022 Claude COULOMBE
+Copyright (C) 2019-2022, The TensorFlow Open Source Project<br/>
+Copyright (C) 2022, Claude COULOMBE
 
 <hr style="line-height=2;"/>
 Sous licence Apache License, Version 2.0 (la "Licence");
