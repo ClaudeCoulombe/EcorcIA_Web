@@ -34,6 +34,9 @@ Connaissance du développement d'une applicaion Web
 
 ## Support
 
+Avertissement! Ce serveur Flask expérimental ne doit pas être utilisé tel quel en production. 
+Utilisez plutôt un serveur WSGI Python de capacité industrielle ou encore NginX, Node.js ou Apache.
+
 Cours VIARENA: Vous devez comprendre que nous ne pourrons offrir aucun support technique
 en dehors du support communautaire du forum de ce cours.
 
@@ -43,9 +46,6 @@ Les données sur les écorces d'arbres proviennent de <a href="https://data.mend
 intelligents par une équipe d'étudiants et de chercheurs du <a href="https://www.sbf.ulaval.ca/" target='_blank'>Département des sciences du bois et de la forêt de l'Université Laval</a> à Québec.</p>
 
 ## Licence
-
-Copyright (C) 2019-2022, The TensorFlow Open Source Project<br/>
-Copyright (C) 2022, Claude COULOMBE
 
 <hr style="line-height=2;"/>
 Sous licence Apache License, Version 2.0 (la "Licence");
