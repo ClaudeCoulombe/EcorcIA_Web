@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container">
+  <fieldset style="border-width:4px;">
+    <legend style="font-size:150%;text-align:left;color:#dbd8e3;">Résultats</legend>
+    <h3 style="color:white;">Espèce d'arbre prédite: {{ dict_resultats.nom_classe }} - {{ dict_resultats.nom_arbre }}</h3>
+    <div>
+       <img src="{{ dict_resultats.chemin_image }}" width="400" height="auto">
+    </div>
+    <div style=" float:right;">
+      <a href="{{ url_for('accueil') }}"><button style="background-color:white;margin:5px;">Retour ↵</button></a>
+    </div>
+  </fieldset>
+</div>
+{% endblock %}

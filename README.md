@@ -10,20 +10,25 @@ Dans ce laboratoire vous allez créer un serveur de modèle ou service d'infére
 
 <p>Vous utiliserez <code>TensorFlow Serving</code>, un serveur de modèles en source libre qui offre des services performants pour les environnements de production.</p>
 
-<p>Il existe plusieurs façons d'installer TensorFlow Serving. La façon la plus simple est l'exécution dans un conteneur <a href="https://www.docker.com" target="_blank">Docker</a>. 
+<p>Il existe plusieurs façons d'installer TensorFlow Serving. La façon la plus simple est l'exécution dans un conteneur <a href="https://www.docker.com" target="_blank">Docker</a>.
 
 ## Prérequis
 
-Connaissance du développment d'une applicaion Web
+Connaissance du développement d'une applicaion Web
 
 <h3><b>Inspiration et droits d'auteur</b></h3>
 
 <p>Ce laboratoire s'inspire de plusieurs oeuvres en logiciels libres qui ont été transformées dont:</p>
 <ul>
   <ul>
-    <li><a href="https://www.tensorflow.org/tfx/serving/serving_advanced" target='_blank'>Building Standard TensorFlow ModelServer</a> - site Google / TensorFlow - la mise en production</li>
-    <li>Copyright (c) 2019-2022, The TensorFlow Authors</li>
-    <li>Copyright (c) 2022, Claude Coulombe, adaptation et mise à jour du code</li>
+  <li>https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html<br/>
+  Copyright (c) 2018, Adrian Rosebrock, François Chollet</li>
+  <li>https://neptune.ai/blog/how-to-serve-machine-learning-models-with-tensorflow-serving-and-docker<br/>
+  Copyright (c) 2018, Adrian Rosebrock, François Chollet</li>
+  <li>https://www.analyticsvidhya.com/blog/2022/01/develop-and-deploy-image-classifier-using-flask-part-2/<br/>
+  Copyright (c) 2022, Sajal Rastogi</li>
+  <li>https://github.com:ClaudeCoulombe/EcorcIA_Web<br/>
+  Copyright (c) 2022, Claude COULOMBE, adaptation, modification du code</li>
   </ul>
 </ul>
 
@@ -34,7 +39,7 @@ en dehors du support communautaire du forum de ce cours.
 
 ## Données
 
-Les données sur les écorces d'arbres proviennent de <a href="https://data.mendeley.com/research-data/?search=barknet">BarkNet</a>, une banque en donées ouvertes sous licence MIT de 23 000 photos d'écorces d'arbres en haute résolution prises avec des téléphones 
+Les données sur les écorces d'arbres proviennent de <a href="https://data.mendeley.com/research-data/?search=barknet">BarkNet</a>, une banque en donées ouvertes sous licence MIT de 23 000 photos d'écorces d'arbres en haute résolution prises avec des téléphones
 intelligents par une équipe d'étudiants et de chercheurs du <a href="https://www.sbf.ulaval.ca/" target='_blank'>Département des sciences du bois et de la forêt de l'Université Laval</a> à Québec.</p>
 
 ## Licence
