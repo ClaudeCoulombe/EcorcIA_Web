@@ -3,10 +3,16 @@
 # Utilisez plutôt un serveur WSGI
 
 # Inspiration & droits d'auteur
+# Déployer un modèle d'apprentissage en profondeur avec Flask RESTful - EN FRANÇAIS
+# https://thedatafrog.com/fr/articles/deploy-deep-learning-model-flask-restful/
+# Copyright (c) 2021, Colin Bernet
+# Building a simple Keras + deep learning REST API
 # https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html
 # Copyright (c) 2018, Adrian Rosebrock, François Chollet
+# Develop and Deploy Image Classifier using Flask: Part 2
 # https://www.analyticsvidhya.com/blog/2022/01/develop-and-deploy-image-classifier-using-flask-part-2/
 # Copyright (c) 2022, Sajal Rastogi
+# EcorcIA Web, un serveur de modèles en ligne - avec TensorFlow Serving, Docker et Flask
 # https://github.com:ClaudeCoulombe/EcorcIA_Web
 # Copyright (c) 2022, Claude COULOMBE, adaptation, modification du code
 

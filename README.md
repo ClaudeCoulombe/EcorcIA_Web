@@ -1,4 +1,4 @@
-# <b>EcorcIA Web</b>, un serveur de modèles en ligne
+# <b>EcorcIA Web</b>, un serveur d'inférences en ligne
 
 ## Avec TensorFlow Serving, Docker et Flask
 
@@ -6,7 +6,7 @@
 
 Cours VIARENA - applications de la VIsion ARtificielle dans les REssources NAturelles.
 
-Dans ce laboratoire vous allez créer un serveur de modèle ou service d'inférence capable d'identifier un arbre à partir d'une photo de son écorce téléversée sur le serveur. Vous allez donc déployer un modèle précédemment entraîné que vous avez téléchargé et sauvegardé sur votre poste de travail.</p>
+Dans ce laboratoire vous allez créer un service d'inférence (ou serveur de modèles) capable d'identifier un arbre à partir d'une photo de son écorce téléversée sur le serveur. Vous allez donc déployer un modèle précédemment entraîné que vous avez téléchargé et sauvegardé sur votre poste de travail.</p>
 
 <p>Vous utiliserez <code>TensorFlow Serving</code>, un serveur de modèles en source libre qui offre des services performants pour les environnements de production.</p>
 
@@ -18,16 +18,16 @@ Connaissance du développement d'une applicaion Web
 
 <h3><b>Inspiration et droits d'auteur</b></h3>
 
-<p>Ce laboratoire s'inspire de plusieurs oeuvres en logiciels libres qui ont été transformées dont:</p>
+<p>Ce laboratoire s'inspire de plusieurs oeuvres publiques ou en logiciels libres qui ont été transformées dont:</p>
 <ul>
   <ul>
-  <li>https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html<br/>
+    <li><a href="https://thedatafrog.com/fr/articles/deploy-deep-learning-model-flask-restful/" target='_blank'>Déployer un modèle d'apprentissage en profondeur avec Flask RESTful</a> - EN FRANÇAIS<br/>
+    Copyright (c) 2021, Colin Bernet</li>
+  <li><a href="https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html" target='_blank'>Building a simple Keras + deep learning REST API</a><br/>
   Copyright (c) 2018, Adrian Rosebrock, François Chollet</li>
-  <li>https://neptune.ai/blog/how-to-serve-machine-learning-models-with-tensorflow-serving-and-docker<br/>
-  Copyright (c) 2018, Adrian Rosebrock, François Chollet</li>
-  <li>https://www.analyticsvidhya.com/blog/2022/01/develop-and-deploy-image-classifier-using-flask-part-2/<br/>
+  <li><a href="https://www.analyticsvidhya.com/blog/2022/01/develop-and-deploy-image-classifier-using-flask-part-2/" target='_blank'>Develop and Deploy Image Classifier using Flask: Part 2</a><br/>
   Copyright (c) 2022, Sajal Rastogi</li>
-  <li>https://github.com:ClaudeCoulombe/EcorcIA_Web<br/>
+  <li><a href="https://github.com:ClaudeCoulombe/EcorcIA_Web" target='_blank'>EcorcIA Web, un serveur d'inférences en ligne</a> - avec TensorFlow Serving, Docker et Flask<br/>
   Copyright (c) 2022, Claude COULOMBE, adaptation, modification du code</li>
   </ul>
 </ul>
