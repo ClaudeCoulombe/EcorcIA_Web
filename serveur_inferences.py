@@ -89,3 +89,31 @@ def predire(chemin_image):
     print(predictions[0])
     print(nom_classe,nom_arbre)
     return (nom_classe,nom_arbre)
+
+# -------------------------------------------------------------------------------------------
+# Licence
+#
+# Sous licence Apache License, Version 2.0 (la "Licence");
+#
+# Vous ne pouvez pas utiliser ce fichier sauf en conformité avec la licence.
+#
+# Vous pouvez obtenir une copie de la licence à: http://www.apache.org/licenses/LICENSE-2.0
+#
+# Sauf si requis par la loi applicable ou convenu par écrit, le logiciel
+# distribué sous la Licence est distribué sur une BASE "TEL QUEL",
+# SANS GARANTIE OU CONDITION D'AUCUNE SORTE, expresse ou implicite.
+# Consultez la Licence pour connaître les autorisations et limitations
+# spécifiques à la langue dans le cadre de la Licence.
+# -------------------------------------------------------------------------------------------
+# Licensed under the Apache License, Version 2.0 (the "License");
+#
+# You may not use this file except in compliance with the License.
+#
+# You may obtain a copy of the License at: http://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+# -------------------------------------------------------------------------------------------
