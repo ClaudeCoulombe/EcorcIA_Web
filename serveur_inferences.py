@@ -5,8 +5,6 @@
 # Inspiration & droits d'auteur
 # https://blog.keras.io/building-a-simple-keras-deep-learning-rest-api.html
 # Copyright (c) 2018, Adrian Rosebrock, François Chollet
-# https://neptune.ai/blog/how-to-serve-machine-learning-models-with-tensorflow-serving-and-docker
-# Copyright (c) 2018, Adrian Rosebrock, François Chollet
 # https://www.analyticsvidhya.com/blog/2022/01/develop-and-deploy-image-classifier-using-flask-part-2/
 # Copyright (c) 2022, Sajal Rastogi
 # https://github.com:ClaudeCoulombe/EcorcIA_Web
