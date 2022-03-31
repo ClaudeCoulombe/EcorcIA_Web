@@ -1,4 +1,4 @@
-# <b>EcorcIA Web</b>, un serveur de modèle en ligne
+# <b>EcorcIA Web</b>, un serveur de modèles en ligne
 
 ## Avec TensorFlow Serving, Docker et Flask
 
