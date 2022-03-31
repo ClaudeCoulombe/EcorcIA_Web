@@ -47,7 +47,6 @@ DICT_ARBRES = {
 }
 
 CLASSES = list(DICT_ARBRES.keys())
-
 ENTETE = {"charset":"utf-8", "content-type":"application/json"}
 URL_MODELE = 'http://localhost:8501/v1/models/modele_1648351029:predict'
 
@@ -60,7 +59,6 @@ def pretraitement(image_entree):
     image_entree = image_entree / 255.
     # Créer un lot => (1, 150, 150, 3) pour le serveur
     image_entree = np.expand_dims(image_entree, axis=0)
-    # Prétraitement usuel utilisés pour Imagenet
     return image_entree
 
 def appeler_serveur_docker(image_entree):
