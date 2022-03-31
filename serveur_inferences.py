@@ -1,6 +1,6 @@
 # serveur_inferences.py
 # ATTENTION! Ce serveur Flask expérimental ne doit pas être utilisé tel quel en production
-# Utilisez plutôt un serveur WSGI
+# Utilisez plutôt un serveur WSGI de capacité industrielle et ajoutez de la sécurité.
 
 # Inspiration & droits d'auteur
 # Déployer un modèle d'apprentissage en profondeur avec Flask RESTful - EN FRANÇAIS
