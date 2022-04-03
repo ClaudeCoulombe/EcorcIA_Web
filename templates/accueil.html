@@ -1,20 +1,25 @@
 {% extends "base.html" %}
 {% block content %}
+<body onload="document.getElementById('fauxChargerInferer').disabled=true;">
    <div style="background-color:black;padding:5px;" class="container">
      <fieldset style="display:inline-block;width:300px;">
        <legend style="color:#dbd8e3;">Téléversement d'une photo</legend>
         <form id="formulaire" class="form-inline" action="{{url_for("accueil")}}" method="post" enctype="multipart/form-data">
           <fieldset style="text-align:center;background-color:#393939;">
               <div class="form-group">
-                  <input type="button" style="background-color:white;margin:5px;" id="fauxChoisirFichier" value="Choisir un fichier" onclick="document.getElementById('choisirFichier').click();"/>
-                  <input type="file" name='fichier' style="display:none;" id="choisirFichier"/>
+                    <input type="button" style="background-color:white;margin:5px;" id="fauxChoisirFichier" value="Choisir un fichier"
+                           onclick="document.getElementById('choisirFichier').click();
+                                    document.getElementById('fauxChargerInferer').disabled=false;
+                                    document.getElementById('fauxChoisirFichier').disabled=true;"/>
+                    <input type="file" name='fichier' style="display:none;" id="choisirFichier"/>
               </div>
               <div class="form-group">
-                  <input type="button" style="background-color:white;margin:5px;" id="fauxCchargerInferer" value="Charger & inférer" onclick="document.getElementById('chargerInferer').click();"/>
+                  <input type="button" style="background-color:white;margin:5px;" id="fauxChargerInferer" value="Charger & inférer" onclick="document.getElementById('chargerInferer').click();"/>
                   <input type="submit" value='upload' style="display:none;" id="chargerInferer"/>
               </div>
           </fieldset>
         </form>
     </fieldset>
   </div>
+</body>
 {% endblock %}
