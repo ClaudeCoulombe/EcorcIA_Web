@@ -14,7 +14,7 @@
 # Copyright (c) 2022, Sajal Rastogi
 # EcorcIA Web, un serveur de modèles en ligne - avec TensorFlow Serving, Docker et Flask
 # https://github.com:ClaudeCoulombe/EcorcIA_Web
-# Copyright (c) 2022, Claude COULOMBE, adaptation, modification du code
+# Copyright (c) 2022-2024, Claude COULOMBE, adaptation, modification du code
 
 import tensorflow as tf
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
@@ -54,7 +54,7 @@ DICT_ARBRES = {
 
 CLASSES = list(DICT_ARBRES.keys())
 ENTETE = {"charset":"utf-8", "content-type":"application/json"}
-URL_MODELE = 'http://localhost:8501/v1/models/modele_1648351029:predict'
+URL_MODELE = 'http://localhost:8501/v1/models/modele_1719042572-22juin2024:predict'
 
 def pretraitement(image_entree):
     # Redimensionnement de l'image

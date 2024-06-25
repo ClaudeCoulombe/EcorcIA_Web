@@ -15,7 +15,7 @@
 # Copyright (c) 2022, Sajal Rastogi
 # EcorcIA Web, un serveur de modèles en ligne - avec TensorFlow Serving, Docker et Flask
 # https://github.com:ClaudeCoulombe/EcorcIA_Web
-# Copyright (c) 2022, Claude COULOMBE, adaptation, modification du code
+# Copyright (c) 2022-2024, Claude COULOMBE, adaptation, modification du code
 
 import os
 import serveur_inferences
@@ -55,7 +55,7 @@ def inferer():
 
 if __name__ == '__main__':
     # Exécuter le serveur web sur le port 5000 du serveur local (localhost)
-    app.run('localhost',5000,debug=True)
+    app.run('localhost',8000,debug=True)
 
 # -------------------------------------------------------------------------------------------
 # Licence
